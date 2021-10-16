@@ -77,7 +77,7 @@ const save = () => {
     textCurrentPlayerActive();
 
     // IF THE WINNER
-    if (score[activePlayer] >= 20) {  // CAMBIIIIARRRRRRRRR
+    if (score[activePlayer] >= 50) {
         // FINISH GAME
         playing = false;
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
